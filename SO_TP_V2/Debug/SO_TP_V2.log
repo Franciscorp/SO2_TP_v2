@@ -1,2 +1,9 @@
-﻿  SO_TP_V2.vcxproj -> C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\SO_TP_V2.exe
+﻿  Servidor.c
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so_tp_v2\estruturadados.h(1): warning C4005: '_UNICODE': macro redefinition
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so_tp_v2\estruturadados.h(1): note: command-line arguments:  see previous definition of '_UNICODE'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so_tp_v2\estruturadados.h(2): warning C4005: 'UNICODE': macro redefinition
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so_tp_v2\estruturadados.h(2): note: command-line arguments:  see previous definition of 'UNICODE'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so_tp_v2\servidor.c(120): warning C4013: 'soma' undefined; assuming extern returning int
+  LINK : C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\SO_TP_V2.exe not found or not built by the last incremental link; performing full link
+  SO_TP_V2.vcxproj -> C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\SO_TP_V2.exe
   SO_TP_V2.vcxproj -> C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\SO_TP_V2.pdb (Full PDB)

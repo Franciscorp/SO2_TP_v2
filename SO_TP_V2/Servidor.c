@@ -117,7 +117,7 @@ int _tmain(int argc, TCHAR * argv[]) {
 
 	system("cls");
 	_tprintf(TEXT("***** SPACE INVADERS *****\n"));
-
+	_tprintf(TEXT("Soma = %d"), soma(4,5));
 	_tprintf(TEXT("\nTempo do Sistema: %02dh  %02dm %02ds  %02dms \n"), tempoSistema.wHour, tempoSistema.wMinute, tempoSistema.wSecond, tempoSistema.wMilliseconds);
 
 	opcao = menu();
