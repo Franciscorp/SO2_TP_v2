@@ -1,0 +1,68 @@
+﻿  Servidor.c
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\estruturadados.h(1): warning C4005: '_UNICODE': macro redefinition
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\estruturadados.h(1): note: command-line arguments:  see previous definition of '_UNICODE'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\estruturadados.h(2): warning C4005: 'UNICODE': macro redefinition
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\estruturadados.h(2): note: command-line arguments:  see previous definition of 'UNICODE'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(7): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(7): error C2224: left of '.nivel' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(8): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(8): error C2224: left of '.powerups' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(9): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(9): error C2224: left of '.nNavesDefensoras' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(10): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(10): error C2224: left of '.nNavesInvasoras' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(11): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(11): error C2224: left of '.frequenciaDisparo' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(12): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(12): error C2224: left of '.speed' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(13): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(13): error C2224: left of '.numVidasJogo' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(14): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(14): error C2224: left of '.tamX' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(15): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(15): error C2224: left of '.tamY' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(23): error C2275: 'jogo': illegal use of this type as an expression
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\estruturadados.h(73): note: see declaration of 'jogo'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(26): error C2275: 'jogo': illegal use of this type as an expression
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\estruturadados.h(73): note: see declaration of 'jogo'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(29): error C2065: 'campo': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(29): error C2224: left of '.larg' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(32): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(32): error C2224: left of '.numVidasJogo' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(35): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(35): error C2224: left of '.nNavesInvasoras' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(38): error C2065: 'j': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(38): error C2224: left of '.nNavesDefensoras' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(41): error C2065: 'campo': undeclared identifier
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(41): error C2224: left of '.larg' must have struct/union type
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(44): error C2275: 'jogo': illegal use of this type as an expression
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\estruturadados.h(73): note: see declaration of 'jogo'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(47): error C2275: 'jogo': illegal use of this type as an expression
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\estruturadados.h(73): note: see declaration of 'jogo'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(23): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(23): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(23): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(26): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(26): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(26): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(29): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(29): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(29): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(32): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(32): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(32): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(35): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(35): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(35): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(38): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(38): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(38): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(41): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(41): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(41): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(44): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(44): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(44): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(47): warning C4473: 'wscanf_s' : not enough arguments passed for format string
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(47): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\so2_tp_v1\servidor.c(47): note: the missing variadic argument 1 is required by format string '%d'
