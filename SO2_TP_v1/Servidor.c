@@ -19,15 +19,7 @@ void iniciaDados() {
 
 void configuraJogo() {
 
-	_tprintf(TEXT("Largura: "));
-	_tscanf_s(TEXT("%d"), &jogo.dimX);
 	
-	_tprintf(TEXT("Altura: "));
-	_tscanf_s(TEXT("%d"), &jogo.dimY);
-
-	_tprintf(TEXT("Naves inimigas: "));
-	_tscanf_s(TEXT("%d"), &campo.larg);
-
 	_tprintf(TEXT("Numero de vidas: "));
 	_tscanf_s(TEXT("%d"), &j.numVidasJogo);
 
@@ -38,31 +30,13 @@ void configuraJogo() {
 	_tscanf_s(TEXT("%d"), &j.nNavesDefensoras);
 
 	_tprintf(TEXT("Powerups: "));
-	_tscanf_s(TEXT("%d"), &campo.larg);
-
-	_tprintf(TEXT("naves Invasoras: "));
-	_tscanf_s(TEXT("%d"), &jogo.nNavesInvasoras);
-
-	_tprintf(TEXT("Numero de vidas: "));
-	_tscanf_s(TEXT("%d"), &jogo.numVidasJogo);
+	_tscanf_s(TEXT("%d"), &j.powerups);
 
 	
 }
 
 
 void criaCampo() {
-
-	jogo j;
-
-	j.tamX= 800;
-	j.tamY = 600;
-	j.nivel = 1;
-	//j.powerups = 4;//4 ao mesmo tempo?
-	//j.nNavesDefensoras = 5;
-	j.nNavesInvasoras = 15;
-	j.frequenciaDisparo = 80; //ms
-	j.speed = 50; //nao sei se estes valores estao certos, só experimentando no jogo depois
-	j.numVidasJogo = 3;
 
 	//_tprintf(TEXT("TamX: %d\n"), j.tamX);
 	//_tprintf(TEXT("TamY: %d"), j.tamY);
@@ -148,7 +122,6 @@ int _tmain(int argc, TCHAR * argv[]) {
 
 	opcao = menu();
 
-	//_tprintf(TEXT("Valor da opçao = %d"), opcao);
 
 	do {
 		switch (opcao) {

@@ -57,6 +57,7 @@ typedef struct {
 
 	int nivel;//talvez va funcionar como factor de multiplicacao para os elementos abaixo
 	int nNavesInvasoras;
+	int nNavesDefensoras;
 	int speed;//numero de naves com este tipo talvez? ou porcoes
 	int tipoComportamento;//numero de naves com este tipo talvez? ou porcoes
 	int frequenciaDisparo;
@@ -65,9 +66,10 @@ typedef struct {
 //macgab
 	int ID; //identifica quem esta nesta posicao
 	int numID; //identifica o id dentro do id. ex: inimigo com o id 233
+	int powerups;
 	int tamX;
 	int tamY;
-	int campo[800][600];
+	int campo[20][50];
 
 
 } jogo;
@@ -102,10 +104,7 @@ typedef struct {
 //4 - tiro
 //5 - bomba
 
-typedef struct {
-	int ID;//identifica quem esta nesta posicao
-	int numID;//identifica o id dentro do id. ex: inimigo com o id 233
-}posCampo;
+jogo j;
 
 
 //estrutura dos dados do campo
