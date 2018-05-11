@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{05262F3E-FB01-4E13-A90B-519D6C8FF99D}</ProjectGuid>
+    <ProjectGuid>{E9B17B38-B89F-4D2E-B351-F2FA5620D0AB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>DLL_TP</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -93,8 +93,6 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
