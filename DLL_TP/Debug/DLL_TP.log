@@ -6,7 +6,6 @@ c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\dll_tp\dll.cpp(8)
 c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\dll_tp\dll.cpp(18): warning C4273: 'soma': inconsistent dll linkage
   c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\dll_tp\dll.h(33): note: see previous definition of 'soma'
 c:\users\franc\documents\visual studio 2015\projects\so2_tp_v2\dll_tp\dll.cpp(43): warning C4715: 'escreveMensagensMemPart': not all control paths return a value
-  LINK : C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\DLL_TP.dll not found or not built by the last incremental link; performing full link
      Creating library C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\DLL_TP.lib and object C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\DLL_TP.exp
   DLL_TP.vcxproj -> C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\DLL_TP.dll
   DLL_TP.vcxproj -> C:\Users\franc\Documents\Visual Studio 2015\Projects\SO2_TP_v2\Debug\DLL_TP.pdb (Full PDB)
